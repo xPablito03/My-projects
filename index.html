@@ -1,0 +1,48 @@
+<!--Iniziamo nel definire il tipo e del documento, successivamente la lingua usata-->
+<!DOCTYPE html>
+<html lang="it">
+    <!--Qui do al sito il necessario: il file css e la Codifica UTF-8 -->
+    <head>
+
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <!-- Ora parte il corpo del sito web che verrà mostrato-->
+    <body>
+        <div id="main">
+            <div id="title">
+                <!--Grazie a qesto div posso modificare la grandezza e la posizione del logo sulla pagina-->
+                <div id="logo">
+                    <img id="imglogo" src="logo.png">
+                </div>
+                <div id="testo1">
+                    <h1>Taking Booleaners from A to B</h1>
+                </div>
+                <!--Nomino questo div "opzioni" per far capire che dovrà contenere i tasti che l'interessato potrà cliccare-->
+                <div id="opzioni">
+                    <a href="#"><input type="button" value="Prenota"></a>
+                    <a href="#"><input type="button" value="Termina prenotazione"></a>
+                    <a href="#"><input type="button" value="Accendi luci"></a>
+                </div>
+                <!--Creo ques'altro div che conterrà le informazioni e la scelta dei monopattini-->
+                <div id="box1">
+                    <p><input type="checkbox" name="monopattino1">Monopattino Gino22</p>
+                    <p1>&#x21A6 Via Guadalametri - a 220 metri da te.<br>
+                            Stato carica:<br>
+                    </p1>
+                    <div id="bar1"></div>
+                    <p><input type="checkbox" name="monopattino2">Monopattino Mike24</p>
+                    <p1>&#x21A6 Via Ricciardoni - a 420 metri da te.<br>
+                        Stato carica:<br>
+                    </p1>
+                    <div id="bar2"></div>
+                    <p><input type="checkbox" name="monopattino3">Monopattino Fede154</p>
+                    <p1>&#x21A6 Via Mentarini - a 490 metri da te.<br>
+                        Stato carica:<br>
+                    </p1>
+                    <div id="bar3"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
